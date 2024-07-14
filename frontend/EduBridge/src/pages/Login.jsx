@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 import { ACCESS_REFRESH_TOKEN, ACCESS_TOKEN } from "../constants";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import api from "../api";
 
 export default function Login() {
